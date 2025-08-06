@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Jest coverage & cache
+coverage/
+jest-coverage/
+.cache/
+.jest/
+
+# Babel
+babel.config.js
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Redis dump files (if used locally)
+dump.rdb
+*.aof
+
+# MikroORM generated
+/migrations/*.js
+/migrations/*.map
+
+# Optional: ignore test output
+test-output/
+
+# Optional: ignore local DB data
+pgdata/
